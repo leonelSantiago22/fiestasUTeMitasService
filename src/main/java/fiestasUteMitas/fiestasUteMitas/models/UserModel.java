@@ -13,7 +13,6 @@ public class UserModel {
     private  String name;
     @Column
     private  String correo;
-    @Column
-    private TarjetaModel tarjeta;
+
 
 }
