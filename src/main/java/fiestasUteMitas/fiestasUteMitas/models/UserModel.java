@@ -7,8 +7,13 @@ import jakarta.persistence.*;
 public class UserModel {
     @Id
     @GeneratedValue(strategy =  GenerationType.IDENTITY)
+    @Column
     private Long id_user;
     @Column
     private  String name;
-    
+    @Column
+    private  String correo;
+    @Column
+    private TarjetaModel tarjeta;
+
 }
